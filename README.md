@@ -19,9 +19,15 @@ Permite gestionar **empresas y reclamos**, además de mostrar algunas estadísti
 
 ---
 
-## 📌 Autor  
-📍 **Mariano Pérez**  
+## 📌 Autor
 
-Este fue mi **primer proyecto en JavaScript**, desarrollado de forma individual como parte de **Programación 1 (2023)**.  
+  ###Primera parte
+  📍 **Mariano Pérez** 
+  📍 **Andres Alvarez** 
+  
+  ###Segunda parte
+  📍 **Mariano Pérez**  
+
+Este fue mi **primer proyecto en JavaScript**, como parte de **Programación 1 (2023)**.  
 
 Si querés más detalles, podés revisar el código fuente incluido. 😊  
