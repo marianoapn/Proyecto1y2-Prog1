@@ -1,5 +1,5 @@
 
-# 📢 Sistema de Reclamos Empresariales
+# 📢 Sistema de Reclamos de Empresas
 
 Este es un **proyecto básico** desarrollado en **JavaScript, HTML y CSS** como parte de **Programación 1 (2023)**.  
 
