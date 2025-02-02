@@ -1,0 +1,258 @@
+/* Mariano Perez Nº307265 */
+
+*{
+	font-family: Arial;
+	color: black;
+	margin: 0px;
+}
+body{
+	min-height: 100vh;
+}
+.espaciado{
+	padding-bottom: 1%;
+}
+
+@media screen and (min-height: 100vh){
+	body{
+		background-color: #B0C858;
+	}
+}
+
+.Navegador{
+	padding: 10px;
+	margin: 0 px;
+	background-color: #B0C858;
+	
+}
+nav ul li {
+	display: inline-block;
+	height: 10px;
+	padding-right: 30px;
+	padding-bottom: 2%;
+	font-size: 20px;
+}
+nav ul li a{
+	
+	color:green;
+}
+nav input{
+	margin-right: 3px;
+}
+#imgNav1{
+	height: 50px;
+	width: 100px;
+}
+#imgNav2{
+	height: 15px;
+	width: 20px;
+	
+}
+
+.PrimeraParte{
+	margin: 5 px;
+	background-color: #FF9F79;
+	border-left: 5px solid #B0C858;
+	border-right: 5px solid #B0C858;
+}
+.logoPersona{
+	width:30px;
+	height:30px;
+	padding:5px;
+	border: white 1px solid;
+	border-radius: 5px;
+	margin-top: 7px;
+}
+#agregarReclamoAqui{
+	padding-top: 40px;
+	padding-bottom: 15px;
+	display: flex;
+	justify-content: center;
+}
+#botonAgregarReclamo{
+	background: linear-gradient(0deg, rgba(192,131,82,1) 23%, rgba(177,191,93,1) 100%);
+	font-size:23px;
+	height: 60px;
+	width: 280px;
+	border:black 2px solid;
+	border-radius: 22px;
+}
+#TituloPrincipal{
+	padding-bottom: 1%;
+}
+
+.SegundaParte{
+	margin: 5 px;
+	background-color: #C39C51;
+	border-right: 5px solid #B0C858;
+	border-left: 5px solid #B0C858;
+	border-bottom: 10px solid #B0C858;
+}
+#idNombre{
+	position: relative;
+	left: 31px;
+	width: 13.3%;
+}
+#idEmpresa{
+	position: relative;
+	left: 24px;
+	width: 13.3%;
+}
+#reclamo{
+	position: relative;
+	left: 21px;
+	width: 13.3%;
+}
+#idComentarios{
+	position: relative;
+	left: 92px;
+	width: 24%;
+}
+#idAgregar{
+	position: relative;
+	left: 92px;
+	}
+
+#idVolver{
+position: relative;
+left: 92px;
+}
+	
+.TerceraParte{
+	background-color: #C07651;
+	border-top: 10px solid #B0C858;
+	border-right: 5px solid #B0C858;
+	border-left: 5px solid #B0C858;
+	border-bottom: 10px solid #B0C858;
+}
+.claseReclamo{
+	margin-left: 5%;
+	margin-right:5%;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: white;
+	padding-bottom:15px;
+
+}
+.textoReclamo{
+	background-color: rgb(253,160,117);
+}
+.NombreEmpresa{
+	background-color: rgb(50,209,53);
+}
+.TerceraParte h3{
+	margin-bottom:30px;
+	margin-top: 25px;
+}
+.reclamoCompleto{
+	padding-top: 15px;
+	padding-left: 20%;
+	padding-right:5%;
+}
+
+.CuartaParte{
+	background-color: #C39C51;
+	border: 5px solid #B0C858;
+	border-bottom: 10px solid #B0C858;
+	border-top: 10px solid #B0C858;
+}
+.idTablaEmpresas {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1%;
+}
+#idBotones{
+	position: relative;
+	margin-bottom: 40;
+	display: flex;
+	justify-content: center;
+}
+#idOpciones{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.CuartaParte table {
+	border-collapse: separate;
+	border-spacing: 1px;
+	background-color: white;
+	border: 2px double black;
+	border-radius: 10px;
+	text-align: center;
+	width: 90%;
+}
+.CuartaParte table th, td {
+	padding: 3px;
+	border: 2px double black;
+}
+#idCantidadMaximaReclamos{
+	   margin: 0px;
+}
+.botonLetraT{
+
+	background-color: rgb(40,212,36)
+}
+.opcionDeOrden{
+	margin-top: 1%;
+	margin-right: 2px;
+	padding-right: 5px;
+}
+.botonesSeleccionLetra{
+	margin-left: 0.3%;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.UltimaParte{
+	background-color: #99F997;
+	border: 5px solid #B0C858;
+	border-top: 10px solid #B0C858;
+	
+}
+#nombre2{
+	position: relative;
+	left: 51px;
+	width: 13.3%;
+}
+#Direccion{
+	position: relative;
+	left: 41px;
+	width: 13.3%;
+}
+#empresa2{
+	position: relative;
+	left: 64px;
+	width: 13.3%;
+}
+#botonAgregarEmpresa{
+	position: relative;
+	left: 112px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+

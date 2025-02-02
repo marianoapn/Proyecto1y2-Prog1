@@ -1,0 +1,112 @@
+<!-- Mariano Perez Nº307265 -->
+
+<!doctype html>
+<html lang= "es">
+	<head>
+		<meta charset= "UTF-8">
+		<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/estilos.css">
+		<script src="js/clases.js"></script>
+		<script src="js/funciones.js"></script>
+		<title>obligatorio</title>
+		
+	</head>
+	<body>
+		<nav class="Navegador">
+			<ul>
+				<li><img  src ="img/logo.png" id="imgNav1" alt = "logo"></li>
+				<li><a href ="javascript:mostrarPrincipal();" id="pri" >Principal</a></li>
+				<li><a href ="javascript:mostrarVerReclamos();" id="rec" >Ver Reclamos</a></li>
+				<li><a href ="javascript:mostrarEstadisticas();" id="est" >Estad&iacute;sticas</a></li>
+				<li><a href ="javascript:mostrarAgregarEmpresa();" id="agr" >Agregar Empresa</a></li>
+				<li><input type="text" id="busqueda" name="busqueda" maxlength="30" ><button id= "botonBusqueda"><img  src ="img/logoBusqueda.png" id="imgNav2" alt = "logo de busqueda"></button></li>
+			</ul>
+		</nav>
+		
+		<section id="seccion1" >
+			<h2 class="PrimeraParte" id="TituloPrincipal" > Sitio para gesti&oacute;n de reclamos</h2>
+			
+			<div class="PrimeraParte" id="Principal" >
+				<h4 class="espaciado"> Este sitio permite ingresar reclamos o quejas y realizar diversas consultas.</h4>
+				<div class="espaciado"> Sitio desarrollado en el curso de Programacion I - 1er semestre 2023 - Universidad ORT Uruguay por: </div>
+				<div><a href="img/FotoMarianoObligatorio.jpg"><img src ="img/FotoMarianoObligatorio.jpg" alt = "logo de Persona" class="logoPersona"> </a>Mariano Perez, Estudiante Nº307265</div>
+				<div><a href="img/FotoAndresObligatorio.png"><img  src ="img/FotoAndresObligatorio.png" alt = "logo de Persona" class = "logoPersona">  </a> Andrés Alvarez, Estudiante Nº295384</div>
+				<div id="agregarReclamoAqui"><input type="button" id="botonAgregarReclamo" value="Agrega tu reclamo aqu&iacute;"></div>
+			</div>
+		
+			<form class="SegundaParte" id="AgregarReclamo" action="#"  method="post">
+				<h2  class="espaciado"> Agregar Reclamo</h2>
+				<label for="idNombre">Nombre
+				<input type="text" id="idNombre" name="nombre" maxlength="30" required placeholder="Tu nombre..."></label>
+				<br>
+				<label for="idEmpresa">Empresa </label>
+				<select name="empresa" id="idEmpresa">
+				</select>
+				<br>
+				<label for="reclamo">Reclamo:
+				<input type="text" id="reclamo" name="reclamo" maxlength="30" placeholder="El título es..." required></label>
+				<br>
+				<textarea name="comentarios" id="idComentarios" rows="5" cols="50" placeholder="y tu reclamo es..." required></textarea> 
+				<br>
+				<input type="button" name="agregar" id="idAgregar" value="Agregar">
+				<input type="button" name="volver" id="idVolver" value="Volver">
+			</form>
+		</section>
+		<section id="seccion2">	
+			<div class="TerceraParte">
+				<h2 id="idTitutloseccion2">Reclamos ingresados (los m&aacute;s recientes primero)</h2>
+				<div id="Reclamos"></div>
+			</div>
+		</section>
+		<section id ="seccion3">
+			<div class="CuartaParte" id="Estadisticas" >
+				<h2 id="idEstadísticas" class="espaciado"> Estad&iacute;sticas </h2>
+				<h3 class="espaciado" >Empresas Seleccionadas</h3>
+				<div id="empresasSeleccionadas">
+					<div id="idBotones" class="espaciado">
+					</div>
+					<div id="idOpciones">
+					<label for="creciente" class="opcionDeOrden"><input type="radio" id="creciente" name="opcion" value="opcion1" checked="checked"> Orden nombre creciente </label>
+					<label for="decreciente" class="opcionDeOrden"><input type="radio" id="decreciente" name="opcion" value="opcion2"> Orden nombre decreciente </label>
+					</div>
+				</div>
+				<br>
+				<div class="idTablaEmpresas">
+				<table id="idTablaEmpresaCrear"></table>
+				</div>
+				<h3 class="espaciado">Informaci&oacute;n General</h3>
+				<div class="espaciado"><p id="idPromedioEmpresas"></p></div>
+				<div class="espaciado"><p id="idTotalEmpresasRegistradas"></div>
+				<h3 class="espaciado">Empresas sin Reclamos</h3>
+				<ul id="idEmpresasSinReclamos"></ul>
+				<h3 class="espaciado">Rubro con m&aacute;xima cantidad de reclamos</h3>
+				<ul id="idCantidadMaximaReclamos"></ul>
+			</div>
+		</section>
+		<section id ="seccion4">	
+			<form class="UltimaParte" id="AgregarEmpresa" >
+				<h2 class="espaciado"> Agregar Empresa </h2>
+				<h3 class="espaciado"> Datos: </h3>
+				<label for="nombre2">Nombre
+				<input type="text" id="nombre2" name="nombre2" maxlength="30" required></label>
+				<br>
+				<label for="Direccion">Direcci&oacute;n
+				<input type="text" id="Direccion" name="Direccion" maxlength="30" required></label>
+				<br>
+				<label for="empresa2">Rubro </label>
+				<select name="empresa2" id="empresa2">
+					<option value="Viajes" selected >Viajes</option>
+					<option value="Restaurantes">Restaurantes</option>
+					<option value="Bancos">Bancos</option>
+					<option value="Muebles">Muebles</option>
+					<option value="Autos">Autos</option>
+					<option value="Servicios">Servicios</option>
+					<option value="General">General</option>
+				</select>
+				<br>
+				<input type="button" id="botonAgregarEmpresa" value="Agregar">
+			</form>
+		</section>
+		
+	</body>
+</html>
