@@ -23,6 +23,7 @@ Permite gestionar **empresas y reclamos**, además de mostrar algunas estadísti
 
   ### Primera parte
   📍 **Mariano Pérez** 
+  
   📍 **Andres Alvarez** 
   
   ### Segunda parte
