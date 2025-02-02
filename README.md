@@ -21,11 +21,11 @@ Permite gestionar **empresas y reclamos**, además de mostrar algunas estadísti
 
 ## 📌 Autor
 
-  ###Primera parte
+  ### Primera parte
   📍 **Mariano Pérez** 
   📍 **Andres Alvarez** 
   
-  ###Segunda parte
+  ### Segunda parte
   📍 **Mariano Pérez**  
 
 Este fue mi **primer proyecto en JavaScript**, como parte de **Programación 1 (2023)**.  
